@@ -43,8 +43,8 @@ metadata-csv: https://docs.google.com/spreadsheets/d/e/2PACX-1vRBqvYVYzA_iIZwBK2
 # Site/Organization Branding 
 # 
 # Uncomment these and enter information for your organization (replacing the CDIL links and name below) if you'd like to brand your site with a logo
-# organization-name: "Center for Digital Inquiry and Learning (CDIL)"
-# organization-link: https://cdil.lib.uidaho.edu/
+ organization-name: "Australian Fairy Tale Society"
+ organization-link: https://australianfairytalesociety.org/
 # organization-logo-banner: https://cdil.lib.uidaho.edu/storying-extinction/assets/img/cdil.png
 # organization-logo-nav: https://cdil.lib.uidaho.edu/assets/img/logo.png
 
@@ -62,6 +62,7 @@ metadata-csv: https://docs.google.com/spreadsheets/d/e/2PACX-1vRBqvYVYzA_iIZwBK2
 # (this is done automatically by gh-pages build)
 #
 # dev mode turns on ability to change metadata
+# We keep this turned on so we can continuously feed in new records via Google Sheets.
 development-mode: true
 # Library directory location. This allows you to customize where the standard assets are found.
 # provide a relative path in this repository or full url 
