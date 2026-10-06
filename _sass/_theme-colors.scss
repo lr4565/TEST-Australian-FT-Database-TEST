@@ -265,3 +265,30 @@ $_luminance-list: .0008 .001 .0011 .0013 .0015 .0017 .002 .0022 .0025 .0027 .003
         @include theme-bg(".bg-#{$color}", $value);
     }
 }
+
+
+/* Custome colours for home page buttons */
+
+.btn-type-colour {
+  background-color: #1D784B;
+  border-color: #218253;
+  color: white;
+  
+  &:hover {
+    background-color: #10452B;
+    border-color: #0F3824;
+    color: white;
+  }
+}
+
+.btn-subject-colour {
+  background-color: #246B85;
+  border-color: #1E586E;
+  color: white;
+  
+  &:hover {
+    background-color: #163F4F;
+    border-color: #0E2B36;
+    color: white;
+  }
+}
