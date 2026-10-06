@@ -1,6 +1,6 @@
 field,display_name
 title,Story
-creator,Creator
+author,Author
 date,Date
-type,Type
-subject,Subjects
+genre,Genre
+subgenre,Subgenre
