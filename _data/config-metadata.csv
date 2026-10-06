@@ -2,13 +2,10 @@ field,display_name,browse_link,external_link
 title,Story,
 creator,Creator,
 date,Date Created,
-description,Description,
+type,Type,true
 subject,Subjects,true
-location,Location
-latitude,Latitude
-longitude,Longitude
 source,Source
+supportingLinks,Supporting Links,,true
 identifier,Source Identifier,,
-type,Type,
 rights,Rights,
 rightsstatement,Rights Statement,,true
