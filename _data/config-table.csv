@@ -1,5 +1,6 @@
 field,display_name
 title,Story
+creator,Creator
 date,Date
 type,Type
 subject,Subjects
