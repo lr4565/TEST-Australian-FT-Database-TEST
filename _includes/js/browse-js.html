@@ -51,6 +51,7 @@ function makeCard(obj) {
     var btns = obj[{{ f.field | jsonify }}].split(";");
     for (var i = 0, len = btns.length; i < len; i++) {
       if(btns[i] != "") {
+        var btnColor = {{ f.field | jsonify }} === "type" ? "btn-type-color" : {{ f.field | jsonify }} === "subject" ? "btn-subject-color" : "btn-secondary";
         card += '<a class="btn btn-sm btn-secondary m-1 text-wrap" href="{{ page.url | relative_url }}#' + encodeURIComponent(btns[i].trim()) + '">' + btns[i].trim() + '</a>';
       }
     }
