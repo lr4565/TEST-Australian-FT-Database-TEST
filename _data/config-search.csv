@@ -6,3 +6,7 @@ description,true,true
 subgenre,true,true
 genre,true,true
 source,true,false
+comments,true,false
+cultural_appropriation,true,false
+criticism,true,false
+form,true,false
