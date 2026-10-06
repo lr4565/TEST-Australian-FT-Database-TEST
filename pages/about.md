@@ -9,7 +9,6 @@ credits: true
 ---
 
 {% include feature/jumbotron.html objectid="/assets/img/jj-ying-WmnsGyaFnCQ-unsplash_opt.jpg" %}
-
 ## About the Australian Fairy Tale and Fairy Story Database
 The first points in the Objectives of the Australian Fairy Tale Society are:
 
