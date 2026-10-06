@@ -7,3 +7,5 @@ warning,
 danger,
 light,
 dark,
+genre-colour,#C8E6CA
+subgenre-colour,#CEF0F0
