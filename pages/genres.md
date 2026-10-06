@@ -1,11 +1,11 @@
 ---
-title: types
+title: genres
 layout: cloud
-permalink: /types.html
+permalink: /genres.html
 # Default subject page is configured in "_data/theme.yml"
 # leave cloud-fields as "site.data.theme.types-fields"
 # a cloud visualization will be added below the content in this file
-cloud-fields: site.data.theme.types-fields
+cloud-fields: site.data.theme.genre-fields
 ---
 
 ## Browse types
