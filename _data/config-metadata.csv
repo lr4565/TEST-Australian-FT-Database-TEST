@@ -4,9 +4,13 @@ author,Author,
 date,Date Created,
 genre,Genre,true
 subgenre,Subgenre,true
-ifRetelling_originalFairyTale,Original Fairy Tale,
+ifRetelling_originalFairyTale,Retelling of,
+form,Form,
+audience,Audience
 source,Source
-identifier,Source Identifier,,
+criticism,Criticism,
+cultural_appropriation,Cultural Appropriation,
+comments,Comments,
 rights,Rights,
 rightsstatement,Rights Statement,,true
-supportingLinks,
+supportingLinks,Supporting Links,
