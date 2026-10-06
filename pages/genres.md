@@ -8,7 +8,7 @@ permalink: /genres.html
 cloud-fields: site.data.theme.genre-fields
 ---
 
-## Browse types
+## Browse Genres
 
 Use this word cloud visualization to browse terms and types.
 Word size is determined by frequency and all words link to a corresponding collection search.
