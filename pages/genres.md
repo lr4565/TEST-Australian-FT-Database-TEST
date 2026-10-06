@@ -1,5 +1,5 @@
 ---
-title: genres
+title: Genres
 layout: cloud
 permalink: /genres.html
 # Default subject page is configured in "_data/theme.yml"
