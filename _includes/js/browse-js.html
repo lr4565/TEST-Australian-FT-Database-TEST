@@ -53,7 +53,7 @@ function makeCard(obj) {
     var btns = obj[{{ f.field | jsonify }}].split(";");
     for (var i = 0, len = btns.length; i < len; i++) {
       if(btns[i] != "") {
-        var btnColor = {{ f.field | jsonify }} === "type" ? "btn-type-colour" : {{ f.field | jsonify }} === "subject" ? "btn-subject-colour" : "btn-secondary";
+        var btnColor = {{ f.field | jsonify }} === "genre" ? "btn-genre-colour" : {{ f.field | jsonify }} === "subgenre" ? "btn-subgenre-colour" : "btn-secondary";
         card += '<a class="btn btn-sm ' + btnColor + ' m-1 text-wrap" href="{{ page.url | relative_url }}#' + encodeURIComponent(btns[i].trim()) + '">' + btns[i].trim() + '</a>';
       }
     }
