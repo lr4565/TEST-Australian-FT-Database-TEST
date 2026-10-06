@@ -1,10 +1,12 @@
 field,display_name,browse_link,external_link
 title,Story,
-creator,Creator,
+author,Author,
 date,Date Created,
-type,Type,true
-subject,Subjects,true
+genre,Genre,true
+subgenre,Subgenre,true
+ifRetelling_originalFairyTale,Original Fairy Tale,
 source,Source
 identifier,Source Identifier,,
 rights,Rights,
 rightsstatement,Rights Statement,,true
+supportingLinks,
