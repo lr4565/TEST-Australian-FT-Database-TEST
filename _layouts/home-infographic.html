@@ -16,9 +16,11 @@ layout: page
 
     {% include index/time.html %}
 
-    {% include index/featured-terms.html field="subject" title="Subjects" btn-color="primary" max=8 %}
+    {% include index/featured-terms.html field="type" title="Types" btn-color="type" max=8 %}
+    
+    {% include index/featured-terms.html field="subject" title="Subjects" btn-color="subject" max=8 %}
 
-    {% include index/featured-terms.html field="type" title="Types" btn-color="secondary" max=8 %}
+
 
     <!--
     {% include index/featured-terms.html field="creator" title="Creators" btn-color="success" max=8 %}
