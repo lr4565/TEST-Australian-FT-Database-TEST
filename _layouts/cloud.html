@@ -1,6 +1,6 @@
 ---
 # Term cloud layout
-# used by default Subjects and Location page to simplify configuration of the feature/cloud.html include.
+# used by default genres and Location page to simplify configuration of the feature/cloud.html include.
 # can be used for any metadata field cloud on other pages by adding front matter to the page stub.
 # page using layout should have front matter setting "cloud-fields"
 # all other cloud feature include options are supported by adding "cloud-" in front of option in front matter.
@@ -9,16 +9,16 @@ layout: page
 
 {{ content }}
 
-{%- if page.cloud-fields == "site.data.theme.subjects-fields" -%}
-    {% assign fields = site.data.theme.subjects-fields %}
-    {% assign min = site.data.theme.subjects-min | default: 1 %}
-    {% assign stopwords = site.data.theme.subjects-stopwords %}
-{%- elsif page.cloud-fields == "site.data.theme.types-fields" -%}
-    {% assign fields = site.data.theme.types-fields %}
-    {% assign min = site.data.theme.types-min | default: 1 %}
-    {% assign stopwords = site.data.theme.types-stopwords %}
+{%- if page.cloud-fields == "site.data.theme.genres-fields" -%}
+    {% assign fields = site.data.theme.genres-fields %}
+    {% assign min = site.data.theme.genres-min | default: 1 %}
+    {% assign stopwords = site.data.theme.genres-stopwords %}
+{%- elsif page.cloud-fields == "site.data.theme.subgenres-fields" -%}
+    {% assign fields = site.data.theme.subgenres-fields %}
+    {% assign min = site.data.theme.subgenres-min | default: 1 %}
+    {% assign stopwords = site.data.theme.subgenres-stopwords %}
 {%- else -%}
-    {% assign fields = page.cloud-fields | default: "subjects" %}
+    {% assign fields = page.cloud-fields | default: "genres" %}
     {% assign min = page.cloud-min | default: 1 %}
     {% assign stopwords = page.cloud-stopwords %}
 {%- endif -%}
