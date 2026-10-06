@@ -222,11 +222,11 @@ $_luminance-list: .0008 .001 .0011 .0013 .0015 .0017 .002 .0022 .0025 .0027 .003
 /* custom mixin to create text color variants */
 @mixin theme-text($parent, $color) {
     #{$parent} {
-        color: $color !important;
+        color: $color ;
     }
     a#{$parent} {
         &:hover, &:focus {
-            color: darken($color, 15%) !important;
+            color: darken($color, 15%) ;
         }
     }  
 }
@@ -234,12 +234,12 @@ $_luminance-list: .0008 .001 .0011 .0013 .0015 .0017 .002 .0022 .0025 .0027 .003
 @mixin theme-bg($parent, $color) {
     #{$parent} {
         --bs-bg-opacity: 1;
-        background-color: rgba($color, var(--bs-bg-opacity))!important;
+        background-color: rgba($color, var(--bs-bg-opacity));
     }
     a#{$parent},
     button#{$parent} {
         &:hover, &:focus {
-            background-color: darken($color, 10%) !important;
+            background-color: darken($color, 10%) ;
         }
     }
 }
@@ -268,25 +268,25 @@ $_luminance-list: .0008 .001 .0011 .0013 .0015 .0017 .002 .0022 .0025 .0027 .003
 /* Custome colours for home page buttons */
 
 .btn-genre-colour {
-  background-color: #C8E6CA !important;
-  border-color: #A9DBAC !important;
-  color: black !important;
+  background-color: #C8E6CA;
+  border-color: #A9DBAC;
+  color: black;
   
   &:hover {
-    background-color: #10452B !important;
-    border-color: #0F3824 !important;
-    color: white !important;
+    background-color: #10452B;
+    border-color: #0F3824;
+    color: white;
   }
 }
 
 .btn-subgenre-colour {
-  background-color: #CEF0F0 !important;
-  border-color: #A5E3E3 !important;
-  color: black !important;
+  background-color: #CEF0F0;
+  border-color: #A5E3E3;
+  color: black;
   
   &:hover {
-    background-color: #163F4F !important;
-    border-color: #0E2B36 !important;
-    color: white !important;
+    background-color: #163F4F;
+    border-color: #0E2B36;
+    color: white;
   }
 }
