@@ -1,4 +1,4 @@
-field,display_name,browse_link,external_link
+field,display_name,browse_link,external_link,no_colon
 title,Story,
 author,Author,
 date,Date Created,
@@ -13,13 +13,13 @@ cultural_appropriation,Cultural Appropriation,
 comments,Comments,
 rights,Rights,
 rightsstatement,Rights Statement,,true
-supportingLinks1,Link,,true
-supportingLinks2,Link,,true
-supportingLinks3,Link,,true
-supportingLinks4,Link,,true
-supportingLinks5,Link,,true
-supportingLinks6,Link,,true
-supportingLinks7,Link,,true
-supportingLinks8,Link,,true
-supportingLinks9,Link,,true
-supportingLinks10,Link,,true
+supportingLinks1,Supporting Links,,true,true
+supportingLinks2,,,true,true
+supportingLinks3,,,true,true
+supportingLinks4,,,true,true
+supportingLinks5,,,true,true
+supportingLinks6,,,true,true
+supportingLinks7,,,true,true
+supportingLinks8,,,true,true
+supportingLinks9,,,true,true
+supportingLinks10,,,true,true
