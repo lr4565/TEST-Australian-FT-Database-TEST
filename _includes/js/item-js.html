@@ -83,14 +83,24 @@ function displayItem(record, prev_id, next_id, compound_object) {
                     browseLinks += '<a class="btn btn-link" href="{{ '/browse.html' | relative_url }}#' + encodeURIComponent(topics[i].trim()) + '">' + topics[i].trim() + '</a> ';
                 }
             }
+            {%- if f.no_colon == "true" %}
+            fields += '<dt class="field">{{ f.display_name }}</dt> <dd class="field-value">' + browseLinks + '</dd>';
+            {%- else %}
             fields += '<dt class="field">{{ f.display_name }}:</dt> <dd class="field-value">' + browseLinks + '</dd>';
+            {%- endif %}
         }
         {%- else -%}
-        if (item[{{ f.field | jsonify }}]) { fields += '<dt class="field">{{ f.display_name }}:</dt> <dd class="field-value">{% if f.external_link == "true" %}<a href="' + item[{{ f.field | jsonify }}] + '" target="_blank" rel="noopener">' + item[{{ f.field | jsonify }}] + '</a>{% else %}' + item[{{ f.field | jsonify }}] + '{% endif %}</dd>'; }
+        if (item[{{ f.field | jsonify }}]) { 
+            {%- if f.no_colon == "true" %}
+            fields += '<dt class="field">{{ f.display_name }}</dt> <dd class="field-value">{% if f.external_link == "true" %}<a href="' + item[{{ f.field | jsonify }}] + '" target="_blank" rel="noopener">' + item[{{ f.field | jsonify }}] + '</a>{% else %}' + item[{{ f.field | jsonify }}] + '{% endif %}</dd>';
+            {%- else %}
+            fields += '<dt class="field">{{ f.display_name }}:</dt> <dd class="field-value">{% if f.external_link == "true" %}<a href="' + item[{{ f.field | jsonify }}] + '" target="_blank" rel="noopener">' + item[{{ f.field | jsonify }}] + '</a>{% else %}' + item[{{ f.field | jsonify }}] + '{% endif %}</dd>';
+            {%- endif %}
+        }
         {% endif %}{% endfor %}
         fields += '</dl>';
         return fields;
-    };
+    }
 
     /* function to add download, timeline, and map links */
     function addButtons(item) {
