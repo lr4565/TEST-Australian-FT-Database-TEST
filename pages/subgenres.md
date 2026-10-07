@@ -5,7 +5,7 @@ permalink: /subgenres.html
 # Default subject page is configured in "_data/theme.yml"
 # leave cloud-fields as "site.data.theme.subgenres-fields"
 # a cloud visualization will be added below the content in this file
-cloud-fields: site.data.theme.genres-fields
+cloud-fields: site.data.theme.subgenres-fields
 ---
 
 ## Browse Subgenres
