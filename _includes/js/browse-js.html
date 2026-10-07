@@ -59,11 +59,11 @@ function makeCard(obj) {
                 "Retelling": "btn-genre-retelling-colour",
                 "Not a Fairy Tale": "btn-genre-notft-colour"
               };
-              btnColor = genreMap[btns[i].trim().toLowerCase()] || "btn-subgenre";
+              btnColor = genreMap[btns[i].trim().toLowerCase()] || "btn-subgenre-colour";
             } else if ({{ f.field | jsonify }} === "subgenre") {
-              btnColor = "btn-subgenre";
+              btnColor = "btn-subgenre-colour";
             } else {
-              btnColor = "btn-subgenre";
+              btnColor = "btn-subgenre-colour";
             }
         card += '<a class="btn btn-sm ' + btnColor + ' m-1 text-wrap" href="{{ page.url | relative_url }}#' + encodeURIComponent(btns[i].trim()) + '">' + btns[i].trim() + '</a>';
       }
