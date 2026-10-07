@@ -279,6 +279,42 @@ $_luminance-list: .0008 .001 .0011 .0013 .0015 .0017 .002 .0022 .0025 .0027 .003
   }
 }
 
+.btn-genre-original-colour {
+  background-color: #B3FFAD;
+  border-color: #DBFFAD;
+  color: black;
+  
+  &:hover {
+    background-color: ###087500;
+    border-color: ##054700;
+    color: white;
+  }
+}
+
+.btn-genre-retelling-colour {
+  background-color: #E7C4FF;
+  border-color: ###AB2EFF;
+  color: black;
+  
+  &:hover {
+    background-color: ###460075;
+    border-color: ###2B0047;
+    color: white;
+  }
+}
+
+.btn-genre-notft-colour {
+  background-color: #FFC4DE;
+  border-color: ##FF8ABD;
+  color: black;
+  
+  &:hover {
+    background-color: ##A30047;
+    border-color: ##750033;
+    color: white;
+  }
+}
+
 .btn-subgenre-colour {
   background-color: #CEF0F0;
   border-color: #A5E3E3;
