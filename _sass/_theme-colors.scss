@@ -281,7 +281,7 @@ $_luminance-list: .0008 .001 .0011 .0013 .0015 .0017 .002 .0022 .0025 .0027 .003
 
 .btn-genre-original-colour {
   background-color: #B3FFAD;
-  border-color: #DBFFAD;
+  border-color: ##00A30E;
   color: black;
   
   &:hover {
@@ -292,13 +292,13 @@ $_luminance-list: .0008 .001 .0011 .0013 .0015 .0017 .002 .0022 .0025 .0027 .003
 }
 
 .btn-genre-retelling-colour {
-  background-color: #E7C4FF;
-  border-color: #AB2EFF;
+  background-color: ##FFFB8A;
+  border-color: ##D1CA00;
   color: black;
   
   &:hover {
-    background-color: #460075;
-    border-color: #2B0047;
+    background-color: ##474500;
+    border-color: ##A39E00;
     color: white;
   }
 }
