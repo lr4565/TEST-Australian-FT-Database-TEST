@@ -24,13 +24,12 @@ There can never be a solid definition of fairy tales because it is a genre where
 
 A major task of this database was to separate these story types.
 
-Our operational definition of **fairy tales** are stories which contain:
+Our operational definition of **fairy tales** are stories which contain some combination of:
 
 1. Magic, especially magical transformations
 2. Dysfunctional or deficient families
 3. Coming of Age: the Main Character attains maturity by achieving identity, authority, and home
-Confrontation with evil
-4. HEA (Happily Ever After) = gaining power and/or a home.
+Confrontation with evil.
 
 **Fairy stories** are identified by the inclusion of:
 
@@ -41,7 +40,7 @@ Confrontation with evil
 
 This record of the history of fairy tales by Australians can never be complete because research and creation is ongoing, however it should provide future researchers with a map of what we have done in expressing our identity through this transcultural form.
 
-Additions can be emailed to Jo Henwood at austfairytales@gmail.com
+Additions and questions can be emailed to Jo Henwood at austfairytales@gmail.com
 
-Updated: 2025
+Updated: 2026
 
