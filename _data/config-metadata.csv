@@ -1,12 +1,12 @@
 field,display_name,browse_link,external_link,no_colon
 title,Story,
-author,Author,
+author,Author,true
 date,Date Created,
 genre,Genre,true
 subgenre,Subgenre,true
-ifRetelling_originalFairyTale,Retelling of,
-form,Form,
-audience,Audience
+ifRetelling_originalFairyTale,Retelling of,true
+form,Form,true
+audience,Audience,true
 source,Source
 criticism,Criticism,
 cultural_appropriation,Cultural Appropriation,
