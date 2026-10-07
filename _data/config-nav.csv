@@ -1,6 +1,7 @@
 display_name,stub,dropdown_parent
 Home,/
 Browse,/browse.html
+Search Help,/search.html,Browse
 Genre,/genres.html
 Subgenres,/subgenres.html
 Timeline,/timeline.html
