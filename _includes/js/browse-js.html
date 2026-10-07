@@ -55,11 +55,11 @@ function makeCard(obj) {
       if(btns[i] != "") {
         if ({{ f.field | jsonify }} === "genre") {
               var genreMap = {
-                "Original Fairy Tale": "btn-genre-original-colour",
-                "Retelling": "btn-genre-retelling-colour",
-                "Not a Fairy Tale": "btn-genre-notft-colour"
+                "original fairy tale": "btn-genre-original-colour",
+                "retelling": "btn-genre-retelling-colour",
+                "not a fairy tale": "btn-genre-notft-colour"
               };
-              btnColor = genreMap[btns[i].trim().toLowerCase()] || "btn-subgenre-colour";
+              btnColor = genreMap[btns[i].trim().toLowerCase()] || "btn-secondary";
             } else if ({{ f.field | jsonify }} === "subgenre") {
               btnColor = "btn-subgenre-colour";
             } else {
