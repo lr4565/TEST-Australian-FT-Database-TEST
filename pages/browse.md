@@ -15,3 +15,4 @@ Click on the title of the story or the "View Full Record" button to see further 
 Or click the genre buttons to filter your results.
 
 Use the "Sort by" box to sort your results by either story, author, date or genres. 
+
