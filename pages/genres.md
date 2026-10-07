@@ -10,5 +10,5 @@ cloud-fields: site.data.theme.genres-fields
 
 ## Browse Genres
 
-Use this word cloud visualization to browse terms and types.
+Use this word cloud visualization to browse genres.
 Word size is determined by frequency and all words link to a corresponding collection search.
