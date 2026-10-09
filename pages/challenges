@@ -1,0 +1,22 @@
+---
+title: Challeneges  
+layout: Challenges 
+permalink: /about.html
+# include CollectionBuilder info at bottom
+credits: true
+# Edit the markdown on in this file to describe your collection
+# Look in _includes/feature for options to easily add features to the page
+---
+
+{% include feature/jumbotron.html objectid="/assets/img/jj-ying-WmnsGyaFnCQ-unsplash_opt.jpg" %}
+## About the Australian Fairy Tale and Fairy Story Database
+
+  Challenges associated with Australian fairy tales.
+
+  Acknowledgement re issues of colonialism.
+
+  decolonising efforts?
+
+  
+Updated: 2026
+
