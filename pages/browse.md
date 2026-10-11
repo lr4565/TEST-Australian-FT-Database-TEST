@@ -6,7 +6,10 @@ permalink: /browse.html
 # the Browse visualization will be added below the content in this file
 ---
 
-## Search 
+<details>
+<summary class="btn btn-link">Click here for search tips</summary>
+
+## Search Tips
 
 Find stories by typing into the search box below. 
 
@@ -18,3 +21,4 @@ Use the "Sort by" box to sort your results by either story, author, date, genres
 
 Or simply browse the database by scrolling.
 
+</details>
