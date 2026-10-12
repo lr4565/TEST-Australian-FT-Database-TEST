@@ -11,7 +11,10 @@ permalink: /browse.html
 <div class="accordion mb-3" id="searchTipsAccordion">
   <div class="accordion-item">
     <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#searchTipsCollapse" aria-expanded="false" aria-controls="searchTipsCollapse">
+      <button class="accordion-button collapsed btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#searchTipsCollapse" aria-expanded="false" aria-controls="searchTipsCollapse" style="text-decoration: none; color: inherit;">
+        Click here for search tips
+      </button>
+    </h2>
         Click here for search tips
       </button>
     </h2>
