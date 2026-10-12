@@ -319,10 +319,17 @@ $_luminance-list: .0008 .001 .0011 .0013 .0015 .0017 .002 .0022 .0025 .0027 .003
   background-color: #CEF0F0;
   border-color: #A5E3E3;
   color: black;
-  
+
   &:hover {
     background-color: #163F4F;
     border-color: #0E2B36;
     color: white;
   }
+}
+
+/* Warning for records */
+
+.field-warning {
+  color: red;
+  font-weight: bold;
 }
