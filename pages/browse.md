@@ -6,14 +6,15 @@ permalink: /browse.html
 # the Browse visualization will be added below the content in this file
 ---
 
-<div class="accordion mb-3" id="searchTipsAccordion">
+<div class="accordion mb-3 mt-4" id="searchTipsAccordion">
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed fs-6" type="button" data-bs-toggle="collapse" data-bs-target="#searchTipsCollapse" aria-expanded="false" aria-controls="searchTipsCollapse">
         <i>Click here for search tips</i></button>
     </h2>
     <div id="searchTipsCollapse" class="accordion-collapse collapse" data-bs-parent="#searchTipsAccordion">
-      <div class="accordion-body">
+      <div class="accordion-body text-start">
+        <b>How to search?</b>
         <ul>
         <li>Find stories by typing into the search box above.
         <li>Click on the title of the story or the "View Full Record" button to see further details about a story.
