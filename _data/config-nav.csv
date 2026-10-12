@@ -1,11 +1,12 @@
 display_name,stub,dropdown_parent
 Home,/
 Search,/browse.html
-Genres,/genres.html
-Subgenres,/subgenres.html
+Genres,
+Genres,/genres.html,Genres
+Subgenres,/subgenres.html,Genres
 Timeline,/timeline.html
 Data,/data.html
-About,/about.html
 Definitions,
-Challenges with defining fairy tales,/challenges-defining-ft.html,/about.html,Definitions
+Challenges with defining fairy tales,/challenges-defining-ft.html,Definitions
 Definitions,/definitions-labels,Definitions
+About,/about.html
