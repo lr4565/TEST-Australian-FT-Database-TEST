@@ -6,6 +6,8 @@ permalink: /browse.html
 # the Browse visualization will be added below the content in this file
 ---
 
+## Search
+
 <details>
 <summary class="btn btn-link">Click here for search tips</summary>
 
