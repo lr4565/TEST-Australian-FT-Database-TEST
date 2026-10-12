@@ -8,19 +8,25 @@ permalink: /browse.html
 
 ## Search
 
-<details>
-<summary class="btn btn-link">Click here for search tips</summary>
-
-## Search Tips
-
-Find stories by typing into the search box below. 
-
-Click on the title of the story or the "View Full Record" button to see further details about a story.
-
-Or click the genre buttons on each story tile to filter your results.
-
-Use the "Sort by" box to sort your results by either story, author, date, genres - or random for a surprise! 
-
-Or simply browse the database by scrolling.
-
-</details>
+<div class="accordion mb-3" id="searchTipsAccordion">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#searchTipsCollapse" aria-expanded="false" aria-controls="searchTipsCollapse">
+        Click here for search tips
+      </button>
+    </h2>
+    <div id="searchTipsCollapse" class="accordion-collapse collapse" data-bs-parent="#searchTipsAccordion">
+      <div class="accordion-body">
+        <p>Find stories by typing into the search box below.</p>
+        
+        <p>Click on the title of the story or the "View Full Record" button to see further details about a story.</p>
+        
+        <p>Or click the genre buttons on each story tile to filter your results.</p>
+        
+        <p>Use the "Sort by" box to sort your results by either story, author, date, genres - or random for a surprise!</p>
+        
+        <p>Or simply browse the database by scrolling.</p>
+      </div>
+    </div>
+  </div>
+</div>
