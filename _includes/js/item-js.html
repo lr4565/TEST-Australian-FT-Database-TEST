@@ -107,7 +107,7 @@ function displayItem(record, prev_id, next_id, compound_object) {
         }
         {% endif %}{% endfor %}
         fields += '</dl>';
-        return fields;
+        return warningField + fields;
     }
 
     /* function to add download, timeline, and map links */
