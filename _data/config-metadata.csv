@@ -1,6 +1,6 @@
 field,display_name,browse_link,external_link,no_colon
 title,Story,
-author,Author,true
+creator,Creator,true
 date,Date Created,
 genre,Genre,true
 subgenre,Subgenre,true
