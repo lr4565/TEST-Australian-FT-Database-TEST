@@ -16,16 +16,17 @@ custom-foot: js/browse-js.html
             </div>
         </form>
 
-
-    {{ content }}
-    </div>
-        
-<h2 class="mt-4 mb-1 text-start">Results</h2>
-<div class="h5 text-start" id="numberOf"></div>
+{{ content }}
+</div>
     
-    <div class="col-md-2">
+<div class="row mt-4 align-items-center">
+    <div class="col">
+        <h2 class="mb-1 text-start">Results</h2>
+        <div class="h5 text-start" id="numberOf"></div>
+    </div>
+    <div class="col-auto">
         <div class="dropdown">
-            <button class="btn btn-secondary mt-1 dropdown-toggle" type="button" id="browseSortButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="browseSortButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Sort by <span id="sortFilter">Random</span>
             </button>
             <div class="dropdown-menu browse-sort-menu" aria-labelledby="browseSortButton">
