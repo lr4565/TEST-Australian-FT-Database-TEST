@@ -1,4 +1,5 @@
 field,display_name,browse_link,external_link,no_colon
+warnings,Warnings
 title,Story,
 creator,Creator,true
 date,Date Created,
@@ -10,7 +11,7 @@ audience,Audience,true
 source,Source
 criticism,Criticism,
 cultural_appropriation,Cultural Appropriation,
-comments,Comments,
+notes,Notes,
 rights,Rights,
 rightsstatement,Rights Statement,,true
 supportingLinks1,Supporting Links,,true,true
