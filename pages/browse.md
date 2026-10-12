@@ -14,13 +14,6 @@ permalink: /browse.html
       <button class="accordion-button collapsed btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#searchTipsCollapse" aria-expanded="false" aria-controls="searchTipsCollapse" style="text-decoration: none; color: inherit;">
         Click here for search tips
       </button>
-    </h2>
-        Click here for search tips
-      </button>
-    </h2>
-        Click here for search tips
-      </button>
-    </h2>
     <div id="searchTipsCollapse" class="accordion-collapse collapse" data-bs-parent="#searchTipsAccordion">
       <div class="accordion-body">
         <p>Find stories by typing into the search box below.</p>
