@@ -77,8 +77,8 @@ function displayItem(record, prev_id, next_id, compound_object) {
     var warningField = '';
     
     // Process warning field first if present
-    if (item.warnings) {
-        warningField = '<dt class="field" style="font-weight: bold;">⚠️ WARNING</dt> <dd class="field-value field-warning" style="font-weight: bold;">' + item.warnings + '</dd>';
+    if (item.warning) {
+        warningField = '<dt class="field field-warning-label">⚠️ WARNING:</dt> <dd class="field-value field-warning">' + item.warning + '</dd>';
     }
     
     // Then add all other fields
