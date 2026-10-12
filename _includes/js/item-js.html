@@ -76,9 +76,9 @@ function displayItem(record, prev_id, next_id, compound_object) {
     var fields = '<dl>';
     var warningField = '';
     
-    // Process warning field first if it exists
+    // Process warning field first if present
     if (item.warnings) {
-        warningField = '<dt class="field" style="color: red; font-weight: bold;">⚠️ WARNING</dt> <dd class="field-value" style="color: red; font-weight: bold;">' + item.warnings + '</dd>';
+        warningField = '<dt class="field" style="font-weight: bold;">⚠️ WARNING</dt> <dd class="field-value field-warning" style="font-weight: bold;">' + item.warnings + '</dd>';
     }
     
     // Then add all other fields
