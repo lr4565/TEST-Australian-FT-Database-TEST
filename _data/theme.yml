@@ -30,9 +30,9 @@ genres-stopwords: # boxers;boxing;boxer # set of subjects separated by ;, e.g. b
 ##########
 # SUBGENRE PAGE
 #
-subgenre-fields: subgenre # set the field to be featured in the cloud (if left blank, none will be generated)
-subgenre-min: 1 # min size for subject cloud, too many terms = slow load time!
-subgenre-stopwords: # boxers;boxing;boxer # set of subjects separated by ;, e.g. boxers;boxing
+subgenres-fields: subgenre # set the field to be featured in the cloud (if left blank, none will be generated)
+subgenres-min: 1 # min size for subject cloud, too many terms = slow load time!
+subgenres-stopwords: # boxers;boxing;boxer # set of subjects separated by ;, e.g. boxers;boxing
 
 ##########
 # LOCATIONS PAGE
