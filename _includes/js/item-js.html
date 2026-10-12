@@ -73,7 +73,15 @@ function displayItem(record, prev_id, next_id, compound_object) {
 
     /* function to add item metadata */
     function generateMetadata(item) {
-        var fields = '<dl>';
+    var fields = '<dl>';
+    var warningField = '';
+    
+    // Process warning field first if it exists
+    if (item.warnings) {
+        warningField = '<dt class="field" style="color: red; font-weight: bold;">⚠️ WARNING</dt> <dd class="field-value" style="color: red; font-weight: bold;">' + item.warnings + '</dd>';
+    }
+    
+    // Then add all other fields
         {% for f in fields %}{% if f.browse_link == "true" %}
         if (item[{{ f.field | jsonify }}]) {
             var topics = item[{{ f.field | jsonify }}].split(';');
