@@ -20,8 +20,5 @@ permalink: /browse.html
         <li>Or click the genre buttons on each story tile to filter your results.
         <li>Use the "Sort by" box to sort your results by either story, author, date, genres - or random for a surprise!
         <li>Or simply browse the database by scrolling.
-      </div>
-    </div>
-  </div>
-</div>
+
 
