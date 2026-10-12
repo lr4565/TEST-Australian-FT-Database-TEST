@@ -1,5 +1,5 @@
 field,display_name,browse_link,external_link,no_colon,is_warning
-warnings,⚠️ Warning,,,,true
+warning,⚠️ Warning,,,,true
 title,Story,
 creator,Creator,true
 date,Date Created,
