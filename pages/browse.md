@@ -6,8 +6,6 @@ permalink: /browse.html
 # the Browse visualization will be added below the content in this file
 ---
 
-## Search
-
 <div class="accordion mb-3" id="searchTipsAccordion">
   <div class="accordion-item">
     <h2 class="accordion-header">
