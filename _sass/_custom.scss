@@ -3,9 +3,11 @@
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
 
-/* Warning for records */
-
 .field-warning {
-  color: #dc3545 !important;
+  font-weight: bold;
+}
+
+.field-warning-label {
+  color: red !important;
   font-weight: bold !important;
 }
