@@ -1,6 +1,6 @@
 field,display_name,btn,hidden,sort_name
 creator,Creator,,,Creator
 date,Date,,,Date
-genre,Genre,true,,Genre
-subgenre,Subgenre,true,,Subgenre
+genre,Story elements,true,,Genre
+subgenre,,true,,Subgenre
 
