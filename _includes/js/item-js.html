@@ -83,6 +83,7 @@ function displayItem(record, prev_id, next_id, compound_object) {
     
     // Then add all other fields
         {% for f in fields %}{% if f.browse_link == "true" %}
+          {% unless f.field == "warning" %}
         if (item[{{ f.field | jsonify }}]) {
             var topics = item[{{ f.field | jsonify }}].split(';');
             var browseLinks = "";
@@ -105,6 +106,7 @@ function displayItem(record, prev_id, next_id, compound_object) {
             fields += '<dt class="field">{{ f.display_name }}:</dt> <dd class="field-value">{% if f.external_link == "true" %}<a href="' + item[{{ f.field | jsonify }}] + '" target="_blank" rel="noopener">' + item[{{ f.field | jsonify }}] + '</a>{% else %}' + item[{{ f.field | jsonify }}] + '{% endif %}</dd>';
             {%- endif %}
         }
+        {% endunless %}
         {% endif %}{% endfor %}
         fields += '</dl>';
         return warningField + fields;
