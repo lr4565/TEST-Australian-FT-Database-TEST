@@ -1,5 +1,5 @@
 field,display_name,btn,hidden,sort_name
-author,Author,,,Author
+creator,Creator,,,Creator
 date,Date,,,Date
 genre,Genre,true,,Genre
 subgenre,Subgenre,true,,Subgenre
