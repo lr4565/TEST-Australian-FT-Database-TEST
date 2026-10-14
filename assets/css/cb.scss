@@ -31,3 +31,10 @@ $theme-colors: map-merge(
 {% endif %}
 
 @import "base", "pages", "custom";
+
+/* Browse titles: underline on hover + keyboard focus */
+.card-title a:hover,
+.card-title a:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
