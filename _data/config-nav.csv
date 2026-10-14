@@ -1,9 +1,9 @@
 display_name,stub,dropdown_parent
 Home,/
 Search,/browse.html
-Genres,
-Genres,/genres.html,Genres
-Subgenres,/subgenres.html,Genres
+Story Elements,
+Story Elements,/elements.html,Genres
+Sub elements,/subelements.html,Genres
 Timeline,/timeline.html
 Data,/data.html
 Definitions,
