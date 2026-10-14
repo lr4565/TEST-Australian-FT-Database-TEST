@@ -3,6 +3,12 @@
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
 
+/* Fonts */
+html, body, button, input, select, textarea {
+  font-family: "Segoe UI", "Segoe UI Variable", Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+/* Warning field for record / item pages */
 .field-warning {
   font-weight: bold;
 }
