@@ -1,7 +1,7 @@
 ---
 title: Story Elements
 layout: cloud
-permalink: /subelements.html
+permalink: /subelements1.html
 # Default subject page is configured in "_data/theme.yml"
 # leave cloud-fields as "site.data.theme.genres-fields"
 # a cloud visualization will be added below the content in this file
