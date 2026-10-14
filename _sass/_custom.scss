@@ -8,6 +8,11 @@ html, body, button, input, select, textarea {
   font-family: "Segoe UI", "Segoe UI Variable", Tahoma, Geneva, Verdana, sans-serif !important;
 }
 
+h1, h2, h3, h4, h5, h6,
+.navbar, .btn, .card, .field, .field-value {
+  font-family: "Segoe UI", "Segoe UI Variable", Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
 /* Warning field for record / item pages */
 .field-warning {
   font-weight: bold;
