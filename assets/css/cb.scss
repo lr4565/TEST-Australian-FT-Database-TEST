@@ -38,3 +38,19 @@ $theme-colors: map-merge(
   text-decoration: underline;
   text-underline-offset: 3px;
 }
+
+/* Item page links */
+.item-page a,
+#item-page a,
+main a {
+  color: #1abc9c !important;   /* normal link */
+}
+
+.item-page a:hover,
+.item-page a:focus-visible,
+#item-page a:hover,
+#item-page a:focus-visible,
+main a:hover,
+main a:focus-visible {
+  color: #b2355a !important;   /* hover/focus */
+}
