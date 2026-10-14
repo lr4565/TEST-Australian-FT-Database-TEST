@@ -54,3 +54,12 @@ $theme-colors: map-merge(
 #item-metadata a:focus-visible {
   color: #b2355a !important;
 }
+
+/* Timeline titles underline on hover/focus */
+.timeline-thumb + .card .card-body a:hover,
+.timeline-thumb + .card .card-body a:focus-visible,
+#timeline a:hover,
+#timeline a:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
