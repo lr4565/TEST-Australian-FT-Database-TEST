@@ -8,4 +8,4 @@ permalink: /warnings.html
 
 Cultural sensitivity statement to go here.
 
-Warnings about possibly triggering content (e.g, harmful depictions, racism, animal cruelty, gun violence)
+Warnings about possibly triggering content.
