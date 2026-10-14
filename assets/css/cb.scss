@@ -39,12 +39,18 @@ $theme-colors: map-merge(
   text-underline-offset: 3px;
 }
 
-/* ONLY links on item layout pages */
-body.item a {
+/* Item page links only */
+.item-content a,
+#item-title a,
+#item-metadata a {
   color: #1abc9c !important;
 }
 
-body.item a:hover,
-body.item a:focus-visible {
+.item-content a:hover,
+.item-content a:focus-visible,
+#item-title a:hover,
+#item-title a:focus-visible,
+#item-metadata a:hover,
+#item-metadata a:focus-visible {
   color: #b2355a !important;
 }
